@@ -48,7 +48,7 @@ namespace SS
             // Use the Windows API function GetWindowRect to retrieve the window's dimensions.
             GetWindowRect(handle, ref rect);
             // Create a Rectangle object using the retrieved dimensions.
-            var bounds = new Rectangle(rect.Left, rect.Top, 1940,1200);
+            var bounds = new Rectangle(rect.Left, rect.Top, 1900,1000);
             // Create a new Bitmap object to store the captured screenshot.
             var result = new Bitmap(bounds.Width, bounds.Height);
 
