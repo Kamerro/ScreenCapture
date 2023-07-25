@@ -67,7 +67,6 @@ namespace ScreenCapture
 
             Console.ReadKey(); // Wait for a key press before the program exits.
 
-            Console.WriteLine("Press any key to play the recorded mouse positions.");
         }
     }
 }
